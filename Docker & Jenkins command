@@ -1,0 +1,18 @@
+## Docker
+
+create and build image:  docker build -t lohith/app . -f Dockerfile
+run image:  docker run -it --name application -p 3000:5000 lohith/app
+print images:  docker images
+push image:  docker push lohith/app:latest
+creating a tag name for image in docker hub: docker tag lohith/app lohithdesu/web_app:latest
+deleting image using Id:  docker rm 0e23af6ce786
+deleting multiple images at a time using Id:  docker rmi -f 3cf7a291f863
+
+## Jenkins
+
+Pybuilder execution using jenkins 
+Here we will build and run test cases at a time using Pybuilder
+Write in Execute windows batch command:
+
+cd C:\Users\Desu.Lohith\PycharmProjects\tweet
+pyb_
